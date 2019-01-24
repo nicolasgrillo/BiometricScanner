@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricScanner", "BiometricScanner\BiometricScanner.csproj", "{C4588511-989D-4B72-A73D-9098A8E23B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricScanner.Library", "BiometricScanner.Library\BiometricScanner.Library.csproj", "{E95E7B75-3EA1-4747-AF1F-5A2FB52FDAD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricScanner.Library.Test", "BiometricScanner.Library.Test\BiometricScanner.Library.Test.csproj", "{2EAEF3A0-F1DB-4884-A474-E6EB2B6EDBFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4588511-989D-4B72-A73D-9098A8E23B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4588511-989D-4B72-A73D-9098A8E23B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4588511-989D-4B72-A73D-9098A8E23B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4588511-989D-4B72-A73D-9098A8E23B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95E7B75-3EA1-4747-AF1F-5A2FB52FDAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95E7B75-3EA1-4747-AF1F-5A2FB52FDAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95E7B75-3EA1-4747-AF1F-5A2FB52FDAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95E7B75-3EA1-4747-AF1F-5A2FB52FDAD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAEF3A0-F1DB-4884-A474-E6EB2B6EDBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAEF3A0-F1DB-4884-A474-E6EB2B6EDBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAEF3A0-F1DB-4884-A474-E6EB2B6EDBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAEF3A0-F1DB-4884-A474-E6EB2B6EDBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
