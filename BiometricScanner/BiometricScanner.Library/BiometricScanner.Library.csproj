@@ -43,6 +43,9 @@
     <Compile Include="Interfaces\IAnimal.cs" />
     <Compile Include="Interfaces\IWalker.cs" />
     <Compile Include="Models\Animal.cs" />
+    <Compile Include="Models\Horse.cs" />
+    <Compile Include="Models\Human.cs" />
+    <Compile Include="Models\Shark.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
