@@ -12,7 +12,7 @@ namespace BiometricScanner.Library.Models
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public abstract string MakeNoise();
+        public abstract string Eat();
 
         public abstract string Walk();
         

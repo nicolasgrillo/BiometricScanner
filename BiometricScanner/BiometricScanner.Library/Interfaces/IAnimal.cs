@@ -8,6 +8,6 @@ namespace BiometricScanner.Library.Interfaces
 {
     public interface IAnimal
     {
-        string MakeNoise();
+        string Eat();
     }
 }
