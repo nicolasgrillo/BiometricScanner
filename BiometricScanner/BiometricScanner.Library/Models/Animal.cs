@@ -12,15 +12,10 @@ namespace BiometricScanner.Library.Models
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public string MakeNoise()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract string MakeNoise();
 
-        public string Walk()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract string Walk();
+        
     }
     
 }
