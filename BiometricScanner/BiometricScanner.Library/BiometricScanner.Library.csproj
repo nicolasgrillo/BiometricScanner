@@ -45,6 +45,7 @@
     <Compile Include="Models\Animal.cs" />
     <Compile Include="Models\Horse.cs" />
     <Compile Include="Models\Human.cs" />
+    <Compile Include="Models\Robot.cs" />
     <Compile Include="Models\Shark.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
