@@ -26,9 +26,16 @@ namespace BiometricScanner.Library.Models
         }
         #endregion
 
+        #region Methods
         public string Walk()
         {
             return "Taking mechanical steps...";
         }
+
+        public override string ToString()
+        {
+            return "I am a Robot!. My way of moving is: " + Walk();
+        }
+        #endregion
     }
 }

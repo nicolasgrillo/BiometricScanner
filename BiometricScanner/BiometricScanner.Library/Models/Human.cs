@@ -30,6 +30,11 @@ namespace BiometricScanner.Library.Models
         {
             return "Taking step by step...";
         }
+
+        public override string ToString()
+        {
+            return "I am a Human. My favourite meal is: " + Eat() + ". My way of moving is: " + Walk();
+        }
         #endregion
     }
 }

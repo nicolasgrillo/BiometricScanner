@@ -16,7 +16,7 @@ namespace BiometricScanner.Library.Models
         { }
         #endregion
 
-        #region Method
+        #region Methods
         public override string Eat()
         {
             return "Eating grass...";
@@ -25,6 +25,11 @@ namespace BiometricScanner.Library.Models
         public override string Walk()
         {
             return "Galloping...";
+        }
+
+        public override string ToString()
+        {
+            return "I am a Horse. My favourite meal is: " + Eat() + ". My way of moving is: " + Walk();
         }
         #endregion
     }

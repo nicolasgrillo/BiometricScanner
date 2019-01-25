@@ -24,9 +24,17 @@ namespace BiometricScanner.Library.Models
             Name = name;
         }
         #endregion
+
+        #region Methods
         public string Eat()
         {
             return "Eating small fish...";
         }
+
+        public override string ToString()
+        {
+            return "I am a Shark. My favourite meal is: " + Eat();
+        }
+        #endregion
     }
 }
