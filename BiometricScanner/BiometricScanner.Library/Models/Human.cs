@@ -8,6 +8,19 @@ namespace BiometricScanner.Library.Models
 {
     public class Human : Animal
     {
+        #region Constructors
+        public Human()
+        {
+
+        }
+
+        public Human(int id, string name) : base (id,name)
+        {
+
+        }
+        #endregion
+
+        #region Methods
         public override string Eat()
         {
             return "Eating pizza...";
@@ -17,5 +30,6 @@ namespace BiometricScanner.Library.Models
         {
             return "Taking step by step...";
         }
+        #endregion
     }
 }

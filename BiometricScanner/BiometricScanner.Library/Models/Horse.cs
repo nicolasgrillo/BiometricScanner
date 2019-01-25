@@ -8,6 +8,15 @@ namespace BiometricScanner.Library.Models
 {
     public class Horse : Animal
     {
+        #region Constructor
+        public Horse() : base ()
+        { }
+
+        public Horse(int id, string name) : base(id, name)
+        { }
+        #endregion
+
+        #region Method
         public override string Eat()
         {
             return "Eating grass...";
@@ -17,5 +26,6 @@ namespace BiometricScanner.Library.Models
         {
             return "Galloping...";
         }
+        #endregion
     }
 }
