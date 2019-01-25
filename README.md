@@ -1,1 +1,3 @@
-# BiometricScanner
+A Biological company has had a major issue when the laboratory got flooded. Hence, they have lost all their registries.
+Now, they want to recover and complete all lost registries. Fortunately, there is an advanced technology which can scan the subject's ability to eat and to walk. 
+This is a simple implementation, given certain inputs, of an artificial intelligence to determine what type of subject is the doctor dealing with. Finally, the doctor will get the brain thoughts of the subject, and the corresponding expressions.
