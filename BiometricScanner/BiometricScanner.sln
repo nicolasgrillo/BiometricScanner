@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricScanner", "BiometricScanner\BiometricScanner.csproj", "{C4588511-989D-4B72-A73D-9098A8E23B5F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E95E7B75-3EA1-4747-AF1F-5A2FB52FDAD2} = {E95E7B75-3EA1-4747-AF1F-5A2FB52FDAD2}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiometricScanner.Library", "BiometricScanner.Library\BiometricScanner.Library.csproj", "{E95E7B75-3EA1-4747-AF1F-5A2FB52FDAD2}"
 EndProject
