@@ -1,4 +1,5 @@
-﻿using BiometricScanner.Library.Models;
+﻿using BiometricScanner.Library.Interfaces;
+using BiometricScanner.Library.Models;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -36,7 +37,53 @@ namespace BiometricScanner.Library.Test
 
             //Assert
             Assert.AreEqual(result, expected);
+        }
 
+        [Test]
+        public void Horse_Should_Walk()
+        {
+            //Arrange
+            string expected = "Galloping...";
+
+            //Act
+            var result = _horse.Walk();
+
+            //Assert
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void Shark_Should_Eat()
+        {
+            //Arrange
+            string expected = "Eating small fish...";
+
+            //Act
+            var result = _shark.Eat();
+
+            //Assert
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void Horse_Should_Always_Eat()
+        {
+            //Arrange
+            string expected = "Eating grass...";
+            List <IAnimal> animals = new List<IAnimal> { _shark, _horse };
+
+            ///Act
+            var firstResult = _horse.Eat();
+
+            var listResults = new List<string>();
+
+            foreach (var animal in animals) {
+                listResults.Add(animal.Eat());
+            }
+
+            //Assert
+            Assert.AreEqual(expected, firstResult);
+            Assert.That(listResults, Has.Member(expected));
         }
 
     }
